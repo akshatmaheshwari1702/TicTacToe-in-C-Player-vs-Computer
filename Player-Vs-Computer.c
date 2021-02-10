@@ -77,7 +77,7 @@ void doRandom()
 	srand(time(0)); 
 	while(1)	
 	{
-		int t = rand()%10;
+		int t = rand()%9;
 		// printf("%d\n",t);
 		if(a[t] == p1 || a[t] == p2 || t == 9)continue;
 		else
